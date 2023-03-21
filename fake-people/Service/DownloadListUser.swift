@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 func downloadListUser() {
-    let dataObject: [ListUser]
+    let dataObject: [UserList]
     
 //    AF.request("https://reqres.in/api/users?page=2", method: .get, parameters: dataObject)
 }
