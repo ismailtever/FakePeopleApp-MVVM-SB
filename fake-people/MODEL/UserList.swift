@@ -7,11 +7,6 @@
 
 import Foundation
 
-struct ListUser: Codable {
-    let page : Int
-    let per_page : String
-    let total : String
-    let total_pages : String
-    let data : User
-    let support : Support
+struct UserList: Codable {
+    let data : [User]
 }
