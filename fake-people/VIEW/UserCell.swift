@@ -13,6 +13,8 @@ class UserCell: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     
+    @IBOutlet weak var surnameLabel: UILabel!
+    
     @IBOutlet weak var emailLabel: UILabel!
     
     override func awakeFromNib() {
@@ -27,3 +29,4 @@ class UserCell: UITableViewCell {
     }
 
 }
+

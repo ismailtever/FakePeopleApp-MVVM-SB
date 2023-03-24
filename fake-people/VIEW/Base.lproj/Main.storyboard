@@ -45,20 +45,30 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blg-AH-zoZ">
+                                                    <rect key="frame" x="189.33333333333334" y="27" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="blg-AH-zoZ" firstAttribute="leading" secondItem="0oh-hi-Klf" secondAttribute="trailing" constant="6" id="1h4-lc-eoX"/>
                                                 <constraint firstItem="9qD-8C-cjP" firstAttribute="leading" secondItem="2gN-B4-b9f" secondAttribute="leadingMargin" constant="8" id="5o9-CC-gRT"/>
                                                 <constraint firstItem="WA3-Gg-dPq" firstAttribute="top" secondItem="0oh-hi-Klf" secondAttribute="bottom" constant="16" id="8vc-gj-2qH"/>
                                                 <constraint firstItem="9qD-8C-cjP" firstAttribute="top" secondItem="2gN-B4-b9f" secondAttribute="topMargin" constant="8" id="D4Q-I1-jcY"/>
+                                                <constraint firstItem="blg-AH-zoZ" firstAttribute="top" secondItem="2gN-B4-b9f" secondAttribute="topMargin" constant="16" id="NVq-Wn-vff"/>
                                                 <constraint firstItem="0oh-hi-Klf" firstAttribute="leading" secondItem="9qD-8C-cjP" secondAttribute="trailing" constant="16" id="agc-4H-kkU"/>
                                                 <constraint firstItem="0oh-hi-Klf" firstAttribute="top" secondItem="2gN-B4-b9f" secondAttribute="topMargin" constant="16" id="gFr-wC-1Ks"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="9qD-8C-cjP" secondAttribute="bottom" constant="8" id="pD1-Vd-beI"/>
                                                 <constraint firstItem="WA3-Gg-dPq" firstAttribute="leading" secondItem="9qD-8C-cjP" secondAttribute="trailing" constant="16" id="zAs-v0-2jc"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <connections>
                                             <outlet property="emailLabel" destination="WA3-Gg-dPq" id="YDA-Va-Scf"/>
                                             <outlet property="nameLabel" destination="0oh-hi-Klf" id="QQq-cm-fxa"/>
+                                            <outlet property="surnameLabel" destination="blg-AH-zoZ" id="vpn-J2-q71"/>
                                             <outlet property="userImage" destination="9qD-8C-cjP" id="VG0-Rh-N3r"/>
                                         </connections>
                                     </tableViewCell>
@@ -66,7 +76,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
                             <constraint firstItem="G4O-cd-pLh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9fr-z1-qiJ"/>
                             <constraint firstItem="G4O-cd-pLh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Rnp-YV-vHo"/>
@@ -86,6 +96,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
