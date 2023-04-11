@@ -17,7 +17,7 @@ Makes requests via Alamofire library to reach users data.
 
 * Minimum iOS Version: 16.1
 
-* Design Pattern: MVVMM
+* Design Pattern: MVVM
 
 * Dependency Manager: Swift Package Manager
 
