@@ -1,4 +1,4 @@
-# fake-people
+# FakePeopleApp-MVVM-SB
 
 A simple one paged contacts MVVM app.
 Makes requests via Alamofire library to reach users data. 
